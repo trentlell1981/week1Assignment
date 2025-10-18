@@ -1,0 +1,113 @@
+/* Base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, red, blue);
+  color: white;
+  text-align: center;
+}
+
+/* Headings */
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ffeb3b;
+  /* Batman Yellow */
+  text-shadow: 3px 3px 10px black;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #b0bec5;
+}
+
+
+#main-title {
+  letter-spacing: 2px;
+}
+
+
+header {
+  padding-top: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+/* Images */
+img {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 60%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Table */
+table {
+  width: 50%;
+  margin: 1.5rem auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.6rem 0.9rem;
+  border: 3px solid #444;
+}
+
+th {
+  background-color: #222;
+  color: yellow;
+}
+
+/* Class selector (nav links) */
+.nav a {
+  margin: 0 10px;
+  padding: 5px 10px;
+  color: yellow;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: orange;
+  background-color: #222;
+}
+
+/* Forms */
+input,
+select {
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #555;
+}
+
+input[type="submit"] {
+  padding: 6px 12px;
+  background-color: yellow;
+  border: 1px solid #555;
+  color: black;
+  cursor: pointer;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin: 5px 0;
+}
+
+li::marker {
+  color: yellow;
+}
